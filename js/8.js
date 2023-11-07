@@ -23,6 +23,6 @@ function task1(){
     }
     
     let dataDays = nameList.map((x, i)=>({x, y:dataListCh(dataList[i])}));
-    alert("Результат смотреть в console.log")
+    let dataDays2 = nameList.map((elem, i)=>(alert(`${elem}:${dataListCh(dataList[i])}`)));
     console.log(dataDays);
 }
